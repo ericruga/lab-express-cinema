@@ -1,1 +1,15 @@
-<h1>CREAMOS LA PAGINA</h1>
+{{#each movies}}
+<div> 
+ <div> 
+
+<img src="{{image}}" alt="{{title}}">
+</div>
+<br>
+<p>{{title}}</p> 
+<a href="/details/{{_id}}"> See more</a>
+<br>
+</div>
+
+
+
+{{/each}}
